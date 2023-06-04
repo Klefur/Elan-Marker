@@ -7,7 +7,7 @@
 ## Instrucciones de uso
 ### Instalación de librerías
 ```python
-pip install asdsad
+pip install json-to-elan
 ```
 ### Azure
 
@@ -17,6 +17,6 @@ Los archivos deben ser mp4
 
 ### Ejecutar el programa
 ```python
-asd.py
+main.py
 ```
 Los archivos generados se encontrarán en la carpeta output
