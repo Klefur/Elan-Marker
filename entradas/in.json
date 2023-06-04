@@ -1,0 +1,1842 @@
+[
+    {
+        "Id": "e632a3a7dabe4a6094caaca700b55e27",
+        "RecognitionStatus": 0,
+        "Offset": 9700000,
+        "Duration": 73300000,
+        "Channel": 0,
+        "DisplayText": "Ajá localicé donde shield guarda mi máquina del tiempo. Para obtenerla. Tendré que usar mi increíble maestría en espionaje.",
+        "NBest": [
+            {
+                "Confidence": 0.7688796,
+                "Lexical": "ajá localicé donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "ITN": "ajá localicé donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "MaskedITN": "ajá localicé donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Display": "Ajá localicé donde shield guarda mi máquina del tiempo. Para obtenerla. Tendré que usar mi increíble maestría en espionaje.",
+                "Words": [
+                    {
+                        "Word": "ajá",
+                        "Offset": 9700000,
+                        "Duration": 5800000
+                    },
+                    {
+                        "Word": "localicé",
+                        "Offset": 18200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "donde",
+                        "Offset": 23200000,
+                        "Duration": 2600000
+                    },
+                    {
+                        "Word": "shield",
+                        "Offset": 25900000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "guarda",
+                        "Offset": 29000000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 31800000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "máquina",
+                        "Offset": 33000000,
+                        "Duration": 3500000
+                    },
+                    {
+                        "Word": "del",
+                        "Offset": 36600000,
+                        "Duration": 1500000
+                    },
+                    {
+                        "Word": "tiempo",
+                        "Offset": 38200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "para",
+                        "Offset": 43500000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "obtenerla",
+                        "Offset": 45600000,
+                        "Duration": 6500000
+                    },
+                    {
+                        "Word": "tendré",
+                        "Offset": 52500000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 55700000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "usar",
+                        "Offset": 56800000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 59100000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "increíble",
+                        "Offset": 60200000,
+                        "Duration": 5100000
+                    },
+                    {
+                        "Word": "maestría",
+                        "Offset": 65400000,
+                        "Duration": 8300000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 75400000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "espionaje",
+                        "Offset": 77200000,
+                        "Duration": 5800000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.7682966,
+                "Lexical": "ajá localice donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "ITN": "ajá localice donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "MaskedITN": "ajá localice donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Display": "ajá localice donde shield guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Words": [
+                    {
+                        "Word": "ajá",
+                        "Offset": 9700000,
+                        "Duration": 5800000
+                    },
+                    {
+                        "Word": "localice",
+                        "Offset": 18200000,
+                        "Duration": 4700000
+                    },
+                    {
+                        "Word": "donde",
+                        "Offset": 23000000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "shield",
+                        "Offset": 25900000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "guarda",
+                        "Offset": 29000000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 31800000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "máquina",
+                        "Offset": 33000000,
+                        "Duration": 3500000
+                    },
+                    {
+                        "Word": "del",
+                        "Offset": 36600000,
+                        "Duration": 1500000
+                    },
+                    {
+                        "Word": "tiempo",
+                        "Offset": 38200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "para",
+                        "Offset": 43500000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "obtenerla",
+                        "Offset": 45600000,
+                        "Duration": 6500000
+                    },
+                    {
+                        "Word": "tendré",
+                        "Offset": 52500000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 55700000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "usar",
+                        "Offset": 56800000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 59100000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "increíble",
+                        "Offset": 60200000,
+                        "Duration": 5100000
+                    },
+                    {
+                        "Word": "maestría",
+                        "Offset": 65400000,
+                        "Duration": 8300000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 75400000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "espionaje",
+                        "Offset": 77200000,
+                        "Duration": 5800000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.78181684,
+                "Lexical": "ajá localicé donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "ITN": "ajá localicé donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "MaskedITN": "ajá localicé donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Display": "ajá localicé donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Words": [
+                    {
+                        "Word": "ajá",
+                        "Offset": 9700000,
+                        "Duration": 5800000
+                    },
+                    {
+                        "Word": "localicé",
+                        "Offset": 18200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "donde",
+                        "Offset": 23200000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "se",
+                        "Offset": 26000000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "guarda",
+                        "Offset": 29200000,
+                        "Duration": 2500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 31800000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "máquina",
+                        "Offset": 33000000,
+                        "Duration": 3500000
+                    },
+                    {
+                        "Word": "del",
+                        "Offset": 36600000,
+                        "Duration": 1500000
+                    },
+                    {
+                        "Word": "tiempo",
+                        "Offset": 38200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "para",
+                        "Offset": 43500000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "obtenerla",
+                        "Offset": 45600000,
+                        "Duration": 6500000
+                    },
+                    {
+                        "Word": "tendré",
+                        "Offset": 52500000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 55700000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "usar",
+                        "Offset": 56800000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 59100000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "increíble",
+                        "Offset": 60200000,
+                        "Duration": 5100000
+                    },
+                    {
+                        "Word": "maestría",
+                        "Offset": 65400000,
+                        "Duration": 8300000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 75400000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "espionaje",
+                        "Offset": 77200000,
+                        "Duration": 5800000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.7837785,
+                "Lexical": "ajá localicé donde se guardan mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "ITN": "ajá localicé donde se guardan mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "MaskedITN": "ajá localicé donde se guardan mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Display": "ajá localicé donde se guardan mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Words": [
+                    {
+                        "Word": "ajá",
+                        "Offset": 9600000,
+                        "Duration": 5900000
+                    },
+                    {
+                        "Word": "localicé",
+                        "Offset": 18200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "donde",
+                        "Offset": 23200000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "se",
+                        "Offset": 26000000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "guardan",
+                        "Offset": 29200000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 32100000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "máquina",
+                        "Offset": 33000000,
+                        "Duration": 3500000
+                    },
+                    {
+                        "Word": "del",
+                        "Offset": 36600000,
+                        "Duration": 1500000
+                    },
+                    {
+                        "Word": "tiempo",
+                        "Offset": 38200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "para",
+                        "Offset": 43500000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "obtenerla",
+                        "Offset": 45600000,
+                        "Duration": 6500000
+                    },
+                    {
+                        "Word": "tendré",
+                        "Offset": 52500000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 55700000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "usar",
+                        "Offset": 56800000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 59100000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "increíble",
+                        "Offset": 60200000,
+                        "Duration": 5100000
+                    },
+                    {
+                        "Word": "maestría",
+                        "Offset": 65400000,
+                        "Duration": 8300000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 75400000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "espionaje",
+                        "Offset": 77200000,
+                        "Duration": 5800000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.7811876,
+                "Lexical": "ajá localice donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "ITN": "ajá localice donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "MaskedITN": "ajá localice donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Display": "ajá localice donde se guarda mi máquina del tiempo para obtenerla tendré que usar mi increíble maestría en espionaje",
+                "Words": [
+                    {
+                        "Word": "ajá",
+                        "Offset": 9700000,
+                        "Duration": 5800000
+                    },
+                    {
+                        "Word": "localice",
+                        "Offset": 18200000,
+                        "Duration": 4700000
+                    },
+                    {
+                        "Word": "donde",
+                        "Offset": 23000000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "se",
+                        "Offset": 26000000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "guarda",
+                        "Offset": 29200000,
+                        "Duration": 2500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 31800000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "máquina",
+                        "Offset": 33000000,
+                        "Duration": 3500000
+                    },
+                    {
+                        "Word": "del",
+                        "Offset": 36600000,
+                        "Duration": 1500000
+                    },
+                    {
+                        "Word": "tiempo",
+                        "Offset": 38200000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "para",
+                        "Offset": 43500000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "obtenerla",
+                        "Offset": 45600000,
+                        "Duration": 6500000
+                    },
+                    {
+                        "Word": "tendré",
+                        "Offset": 52500000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "que",
+                        "Offset": 55700000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "usar",
+                        "Offset": 56800000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 59100000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "increíble",
+                        "Offset": 60200000,
+                        "Duration": 5100000
+                    },
+                    {
+                        "Word": "maestría",
+                        "Offset": 65400000,
+                        "Duration": 8300000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 75400000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "espionaje",
+                        "Offset": 77200000,
+                        "Duration": 5800000
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "a41d0c7e853a4f5bb226bb85695aaf56",
+        "RecognitionStatus": 0,
+        "Offset": 97500000,
+        "Duration": 154500000,
+        "Channel": 0,
+        "DisplayText": "Hey, soy el repartidor de agua José Antonio, Vengo de Maracaibo, la ciudad más linda es mi ciudad, de ahí vengo cuando no estoy comiendo unas arepas, estoy haciendo unos dólares repartiendo agua y visitando a mi tío en Florida. Yo soy el chamo y vengo de Venezuela, sí señor.",
+        "NBest": [
+            {
+                "Confidence": 0.8395644,
+                "Lexical": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "ITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "MaskedITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Display": "Hey, soy el repartidor de agua José Antonio, Vengo de Maracaibo, la ciudad más linda es mi ciudad, de ahí vengo cuando no estoy comiendo unas arepas, estoy haciendo unos dólares repartiendo agua y visitando a mi tío en Florida. Yo soy el chamo y vengo de Venezuela, sí señor.",
+                "Words": [
+                    {
+                        "Word": "hey",
+                        "Offset": 97500000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 103700000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 106500000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "repartidor",
+                        "Offset": 107500000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 114000000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 115100000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "josé",
+                        "Offset": 117300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "antonio",
+                        "Offset": 120400000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 126900000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 130100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "maracaibo",
+                        "Offset": 131100000,
+                        "Duration": 9500000
+                    },
+                    {
+                        "Word": "la",
+                        "Offset": 140700000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 142100000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "más",
+                        "Offset": 145300000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "linda",
+                        "Offset": 147300000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "es",
+                        "Offset": 150200000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 151300000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 152500000,
+                        "Duration": 4100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 156700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "ahí",
+                        "Offset": 157600000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 158900000,
+                        "Duration": 5400000
+                    },
+                    {
+                        "Word": "cuando",
+                        "Offset": 164400000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "no",
+                        "Offset": 167400000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 168500000,
+                        "Duration": 2300000
+                    },
+                    {
+                        "Word": "comiendo",
+                        "Offset": 170900000,
+                        "Duration": 3600000
+                    },
+                    {
+                        "Word": "unas",
+                        "Offset": 174600000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "arepas",
+                        "Offset": 176900000,
+                        "Duration": 3900000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 180900000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "haciendo",
+                        "Offset": 183700000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "unos",
+                        "Offset": 186900000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "dólares",
+                        "Offset": 188900000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "repartiendo",
+                        "Offset": 193900000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 200100000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 203100000,
+                        "Duration": 300000
+                    },
+                    {
+                        "Word": "visitando",
+                        "Offset": 203500000,
+                        "Duration": 5700000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 209300000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 209900000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "tío",
+                        "Offset": 211300000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 213500000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "florida",
+                        "Offset": 214700000,
+                        "Duration": 7000000
+                    },
+                    {
+                        "Word": "yo",
+                        "Offset": 221800000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 223100000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 225100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "chamo",
+                        "Offset": 226400000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 231700000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 232300000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 235100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "venezuela",
+                        "Offset": 236100000,
+                        "Duration": 7900000
+                    },
+                    {
+                        "Word": "sí",
+                        "Offset": 244100000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "señor",
+                        "Offset": 245900000,
+                        "Duration": 6100000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.84225285,
+                "Lexical": "hey soy el repartidor de agua a josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "ITN": "hey soy el repartidor de agua a josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "MaskedITN": "hey soy el repartidor de agua a josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Display": "hey soy el repartidor de agua a josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Words": [
+                    {
+                        "Word": "hey",
+                        "Offset": 97500000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 103700000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 106500000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "repartidor",
+                        "Offset": 107500000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 114000000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 115100000,
+                        "Duration": 2000000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 117200000,
+                        "Duration": 200000
+                    },
+                    {
+                        "Word": "josé",
+                        "Offset": 117500000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "antonio",
+                        "Offset": 120400000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 126900000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 130100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "maracaibo",
+                        "Offset": 131100000,
+                        "Duration": 9500000
+                    },
+                    {
+                        "Word": "la",
+                        "Offset": 140700000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 142100000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "más",
+                        "Offset": 145300000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "linda",
+                        "Offset": 147300000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "es",
+                        "Offset": 150200000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 151300000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 152500000,
+                        "Duration": 4100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 156700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "ahí",
+                        "Offset": 157600000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 158900000,
+                        "Duration": 5400000
+                    },
+                    {
+                        "Word": "cuando",
+                        "Offset": 164400000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "no",
+                        "Offset": 167400000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 168500000,
+                        "Duration": 2300000
+                    },
+                    {
+                        "Word": "comiendo",
+                        "Offset": 170900000,
+                        "Duration": 3600000
+                    },
+                    {
+                        "Word": "unas",
+                        "Offset": 174600000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "arepas",
+                        "Offset": 176900000,
+                        "Duration": 3900000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 180900000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "haciendo",
+                        "Offset": 183700000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "unos",
+                        "Offset": 186900000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "dólares",
+                        "Offset": 188900000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "repartiendo",
+                        "Offset": 193900000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 200100000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 203100000,
+                        "Duration": 300000
+                    },
+                    {
+                        "Word": "visitando",
+                        "Offset": 203500000,
+                        "Duration": 5700000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 209300000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 209900000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "tío",
+                        "Offset": 211300000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 213500000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "florida",
+                        "Offset": 214700000,
+                        "Duration": 7000000
+                    },
+                    {
+                        "Word": "yo",
+                        "Offset": 221800000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 223100000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 225100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "chamo",
+                        "Offset": 226400000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 231700000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 232300000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 235100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "venezuela",
+                        "Offset": 236100000,
+                        "Duration": 7900000
+                    },
+                    {
+                        "Word": "sí",
+                        "Offset": 244100000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "señor",
+                        "Offset": 245900000,
+                        "Duration": 6100000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.8375727,
+                "Lexical": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tio en florida yo soy el chamo y vengo de venezuela sí señor",
+                "ITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tio en florida yo soy el chamo y vengo de venezuela sí señor",
+                "MaskedITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tio en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Display": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tio en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Words": [
+                    {
+                        "Word": "hey",
+                        "Offset": 97500000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 103700000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 106500000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "repartidor",
+                        "Offset": 107500000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 114000000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 115100000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "josé",
+                        "Offset": 117300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "antonio",
+                        "Offset": 120400000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 126900000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 130100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "maracaibo",
+                        "Offset": 131100000,
+                        "Duration": 9500000
+                    },
+                    {
+                        "Word": "la",
+                        "Offset": 140700000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 142100000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "más",
+                        "Offset": 145300000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "linda",
+                        "Offset": 147300000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "es",
+                        "Offset": 150200000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 151300000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 152500000,
+                        "Duration": 4100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 156700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "ahí",
+                        "Offset": 157600000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 158900000,
+                        "Duration": 5300000
+                    },
+                    {
+                        "Word": "cuando",
+                        "Offset": 164300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "no",
+                        "Offset": 167400000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 168500000,
+                        "Duration": 2300000
+                    },
+                    {
+                        "Word": "comiendo",
+                        "Offset": 170900000,
+                        "Duration": 3600000
+                    },
+                    {
+                        "Word": "unas",
+                        "Offset": 174600000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "arepas",
+                        "Offset": 176900000,
+                        "Duration": 3900000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 180900000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "haciendo",
+                        "Offset": 183700000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "unos",
+                        "Offset": 186900000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "dólares",
+                        "Offset": 188900000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "repartiendo",
+                        "Offset": 193900000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 200100000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 203100000,
+                        "Duration": 300000
+                    },
+                    {
+                        "Word": "visitando",
+                        "Offset": 203500000,
+                        "Duration": 5700000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 209300000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 209900000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "tio",
+                        "Offset": 211300000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 213500000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "florida",
+                        "Offset": 214700000,
+                        "Duration": 7000000
+                    },
+                    {
+                        "Word": "yo",
+                        "Offset": 221800000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 223100000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 225100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "chamo",
+                        "Offset": 226400000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 231700000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 232300000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 235100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "venezuela",
+                        "Offset": 236100000,
+                        "Duration": 7900000
+                    },
+                    {
+                        "Word": "sí",
+                        "Offset": 244100000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "señor",
+                        "Offset": 245900000,
+                        "Duration": 6100000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.838553,
+                "Lexical": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela si señor",
+                "ITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela si señor",
+                "MaskedITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela si señor",
+                "Display": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dólares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela si señor",
+                "Words": [
+                    {
+                        "Word": "hey",
+                        "Offset": 97500000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 103700000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 106500000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "repartidor",
+                        "Offset": 107500000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 114000000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 115100000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "josé",
+                        "Offset": 117300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "antonio",
+                        "Offset": 120400000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 126900000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 130100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "maracaibo",
+                        "Offset": 131100000,
+                        "Duration": 9500000
+                    },
+                    {
+                        "Word": "la",
+                        "Offset": 140700000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 142100000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "más",
+                        "Offset": 145300000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "linda",
+                        "Offset": 147300000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "es",
+                        "Offset": 150200000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 151300000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 152500000,
+                        "Duration": 4100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 156700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "ahí",
+                        "Offset": 157600000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 158900000,
+                        "Duration": 5300000
+                    },
+                    {
+                        "Word": "cuando",
+                        "Offset": 164300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "no",
+                        "Offset": 167400000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 168500000,
+                        "Duration": 2300000
+                    },
+                    {
+                        "Word": "comiendo",
+                        "Offset": 170900000,
+                        "Duration": 3600000
+                    },
+                    {
+                        "Word": "unas",
+                        "Offset": 174600000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "arepas",
+                        "Offset": 176900000,
+                        "Duration": 3900000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 180900000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "haciendo",
+                        "Offset": 183700000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "unos",
+                        "Offset": 186900000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "dólares",
+                        "Offset": 188900000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "repartiendo",
+                        "Offset": 193900000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 200100000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 203100000,
+                        "Duration": 300000
+                    },
+                    {
+                        "Word": "visitando",
+                        "Offset": 203500000,
+                        "Duration": 5700000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 209300000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 209900000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "tío",
+                        "Offset": 211300000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 213500000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "florida",
+                        "Offset": 214700000,
+                        "Duration": 7000000
+                    },
+                    {
+                        "Word": "yo",
+                        "Offset": 221800000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 223100000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 225100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "chamo",
+                        "Offset": 226400000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 231700000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 232300000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 235100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "venezuela",
+                        "Offset": 236100000,
+                        "Duration": 7900000
+                    },
+                    {
+                        "Word": "si",
+                        "Offset": 244100000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "señor",
+                        "Offset": 245900000,
+                        "Duration": 6100000
+                    }
+                ]
+            },
+            {
+                "Confidence": 0.83827674,
+                "Lexical": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dolares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "ITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dolares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "MaskedITN": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dolares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Display": "hey soy el repartidor de agua josé antonio vengo de maracaibo la ciudad más linda es mi ciudad de ahí vengo cuando no estoy comiendo unas arepas estoy haciendo unos dolares repartiendo agua y visitando a mi tío en florida yo soy el chamo y vengo de venezuela sí señor",
+                "Words": [
+                    {
+                        "Word": "hey",
+                        "Offset": 97500000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 103700000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 106500000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "repartidor",
+                        "Offset": 107500000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 114000000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 115100000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "josé",
+                        "Offset": 117300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "antonio",
+                        "Offset": 120400000,
+                        "Duration": 6400000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 126900000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 130100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "maracaibo",
+                        "Offset": 131100000,
+                        "Duration": 9500000
+                    },
+                    {
+                        "Word": "la",
+                        "Offset": 140700000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 142100000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "más",
+                        "Offset": 145300000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "linda",
+                        "Offset": 147300000,
+                        "Duration": 2800000
+                    },
+                    {
+                        "Word": "es",
+                        "Offset": 150200000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 151300000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "ciudad",
+                        "Offset": 152500000,
+                        "Duration": 4100000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 156700000,
+                        "Duration": 800000
+                    },
+                    {
+                        "Word": "ahí",
+                        "Offset": 157600000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 158900000,
+                        "Duration": 5300000
+                    },
+                    {
+                        "Word": "cuando",
+                        "Offset": 164300000,
+                        "Duration": 3000000
+                    },
+                    {
+                        "Word": "no",
+                        "Offset": 167400000,
+                        "Duration": 1000000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 168500000,
+                        "Duration": 2300000
+                    },
+                    {
+                        "Word": "comiendo",
+                        "Offset": 170900000,
+                        "Duration": 3600000
+                    },
+                    {
+                        "Word": "unas",
+                        "Offset": 174600000,
+                        "Duration": 2200000
+                    },
+                    {
+                        "Word": "arepas",
+                        "Offset": 176900000,
+                        "Duration": 3900000
+                    },
+                    {
+                        "Word": "estoy",
+                        "Offset": 180900000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "haciendo",
+                        "Offset": 183700000,
+                        "Duration": 3100000
+                    },
+                    {
+                        "Word": "unos",
+                        "Offset": 186900000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "dolares",
+                        "Offset": 188900000,
+                        "Duration": 4900000
+                    },
+                    {
+                        "Word": "repartiendo",
+                        "Offset": 193900000,
+                        "Duration": 6100000
+                    },
+                    {
+                        "Word": "agua",
+                        "Offset": 200100000,
+                        "Duration": 2900000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 203100000,
+                        "Duration": 300000
+                    },
+                    {
+                        "Word": "visitando",
+                        "Offset": 203500000,
+                        "Duration": 5700000
+                    },
+                    {
+                        "Word": "a",
+                        "Offset": 209300000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "mi",
+                        "Offset": 209900000,
+                        "Duration": 1300000
+                    },
+                    {
+                        "Word": "tío",
+                        "Offset": 211300000,
+                        "Duration": 2100000
+                    },
+                    {
+                        "Word": "en",
+                        "Offset": 213500000,
+                        "Duration": 1100000
+                    },
+                    {
+                        "Word": "florida",
+                        "Offset": 214700000,
+                        "Duration": 7000000
+                    },
+                    {
+                        "Word": "yo",
+                        "Offset": 221800000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "soy",
+                        "Offset": 223100000,
+                        "Duration": 1900000
+                    },
+                    {
+                        "Word": "el",
+                        "Offset": 225100000,
+                        "Duration": 1200000
+                    },
+                    {
+                        "Word": "chamo",
+                        "Offset": 226400000,
+                        "Duration": 5200000
+                    },
+                    {
+                        "Word": "y",
+                        "Offset": 231700000,
+                        "Duration": 500000
+                    },
+                    {
+                        "Word": "vengo",
+                        "Offset": 232300000,
+                        "Duration": 2700000
+                    },
+                    {
+                        "Word": "de",
+                        "Offset": 235100000,
+                        "Duration": 900000
+                    },
+                    {
+                        "Word": "venezuela",
+                        "Offset": 236100000,
+                        "Duration": 7900000
+                    },
+                    {
+                        "Word": "sí",
+                        "Offset": 244100000,
+                        "Duration": 1700000
+                    },
+                    {
+                        "Word": "señor",
+                        "Offset": 245900000,
+                        "Duration": 6100000
+                    }
+                ]
+            }
+        ]
+    }
+]
