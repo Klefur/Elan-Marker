@@ -28,7 +28,7 @@ def detector(data_path: str = "input", filters: list = []):
         with open(f'{file_path}', encoding='utf-8') as json_file:
             # Making .json output
             json_file_name = file_path[len(data_path)+1:-5]
-            jsonSalida = open(f'output\{json_file_name}_out.json', 'w', encoding='utf-8')
+            json_output = open(f'output\{json_file_name}_out.json', 'w', encoding='utf-8')
 
             # Reading data
             data = json.load(json_file)
@@ -36,9 +36,9 @@ def detector(data_path: str = "input", filters: list = []):
                 for word in info['NBest'][0]['Words']:
                     # Saving only if word contains any filter
                     if (apply_filter(word['Word'], filters)):
-                        inicio = round(word['Offset']*100/NANOSECONDS_PER_SECOND, 2) 
-                        fin = round(inicio + word['Duration']*100/NANOSECONDS_PER_SECOND, 2)
-                        output_text.append({'text': word['Word'], 'timestamp': [inicio, fin]})
+                        start = round(word['Offset']*100/NANOSECONDS_PER_SECOND, 2) 
+                        end = round(start + word['Duration']*100/NANOSECONDS_PER_SECOND, 2)
+                        output_text.append({'text': word['Word'], 'timestamp': [start, end]})
 
-            jsonSalida.write(json.dumps(output_text, indent=4, ensure_ascii=False))
-            jsonSalida.close()
+            json_output.write(json.dumps(output_text, indent=4, ensure_ascii=False))
+            json_output.close()
