@@ -9,7 +9,7 @@ def apply_filter(text: str, filters: list):
     """
 
     for filter in filters:
-        if (filter in text):
+        if (filter in text.casefold()):
             return True
     return False
 
