@@ -19,10 +19,10 @@ def filter_json(data_path: str = "input", filters: list = []):
     filters : list of strings
     """
 
-    output_text = []
     # Get every .json file from data_path folder
     json_files = glob.glob(data_path + "\*.json", recursive=False)
     for file_path in json_files:
+        output_text = []
         with open(f'{file_path}', encoding='utf-8') as json_file:
             # Making .json output
             json_file_name = file_path[len(data_path)+1:-5]

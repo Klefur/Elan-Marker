@@ -1,0 +1,3 @@
+Original source code: https://github.com/CoEDL/elan-helpers
+
+Line 23 was modified from make_elan.py, adding {, encoding='utf-8'}
