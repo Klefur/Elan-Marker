@@ -27,7 +27,7 @@ python ./marcador_elan.py --filters s d
 * ``--output_folder``: Folder for output files
 * ``--delete_temp``: Delete temporal files
 * ``--use_wav``: Skip .wav to .mp4 conversion
-* ``--name_model``: Select whisper model
+* ``--name_model``: Select [whisper model](https://github.com/openai/whisper/tree/main#available-models-and-languages)
 * ``--language``: Select language of the audio
 
 Los archivos generados se encontrarán en la carpeta output
