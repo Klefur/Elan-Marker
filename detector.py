@@ -30,7 +30,6 @@ def filter_json(data_path: str = "input", filters: list = []):
 
             # Reading data
             data = json.load(json_file)
-            segments = data["segments"]
             for segment in data["segments"]:
                 for word in segment["words"]:
                     # Saving only if word contains any filter
