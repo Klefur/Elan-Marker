@@ -79,7 +79,7 @@ def main():
     print("Done!")
 
     print("\nApplying filters.")
-    filter_json(args.input_folder, filters=["d", "t"])
+    filter_json(args.input_folder, args.filters)
     print("Done!")
 
     print("\nMaking output folder:")
