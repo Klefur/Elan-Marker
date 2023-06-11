@@ -1,6 +1,6 @@
 # Marcador-Elan
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.md)
 ### Herramienta de análisis de video
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.md)
 
 ## Autores: 
 [Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
