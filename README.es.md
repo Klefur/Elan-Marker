@@ -1,57 +1,57 @@
 # Marcador-Elan
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.es.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.md)
 ### Herramienta de análisis de video
 
 ## Autores: 
-[Lucas Mesías](https://www.github.com/Skyrdow) | [Joaquín Salidivia](https://www.github.com/Skyrdow) | [Nicolás Aguilera](https://www.github.com/Skyrdow)
+[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
 ## Instrucciones de uso
 ### Prerrequisitos
 * Python 3.9 o superior
 
 ### Instalación de librerías
-* Instalación liviana de ``torchaudio`` para CPU:
-```python
-pip3 install torch==1.13.1+cpu torchaudio==0.13.1+cpu
-```
 * Instalación de la librería ``whisper-timestamped``:
-```python
+```bash
 pip3 install git+https://github.com/linto-ai/whisper-timestamped
 ```
 * Instalar ``ffmpeg``:
     * En Ubuntu o Debian:
-    ```python
+    ```bash
     sudo apt update && sudo apt install ffmpeg
     ```
     * en Arch Linux:
-    ```python
+    ```bash
     sudo pacman -S ffmpeg
     ```
     * en MacOS usando Homebrew (https://brew.sh/):
-    ```python
+    ```bash
     brew install ffmpeg
     ```
     * on Windows usando Chocolatey (https://chocolatey.org/):
-    ```python
+    ```bash
     choco install ffmpeg
     ```
     * on Windows using Scoop (https://scoop.sh/):
-    ```
+    ```bash
     scoop install ffmpeg
     ```
 * Instalar ONNX Runtime:
-```
+```bash
 pip3 install onnxruntime torchaudio
 ```
 * Audio backend torchaudio:
-    * SoundFile for Windows ```pip install soundfile```
-    * Sox for Linux ```pip install sox```
-
-* Json to Elan, la cual puede ser instalada con la siguiente línea de comando:
-```python
-pip install json-to-elan
+    * SoundFile for Windows 
+    ```bash
+    pip install soundfile
+    ```
+    * Sox for Linux
+    ```bash
+    pip install sox
+    ```
+* moviepy 
+```bash
+pip install moviepy
 ```
-* moviepy ```pip install moviepy```
 
 ### Preparar archivos
 Mover todos los archivos a procesar a la carpeta input
@@ -59,7 +59,7 @@ Los archivos .mp4 serán transformados a .wav automáticamente, para evitar la c
 
 ## Ejecutar el programa desde la terminal
 La siguiente línea de comando ejecutará el programa y marcará en la línea de tiempo las palabras que contengan las letras 's' y 'd'
-```
+```bash
 python ./marcador_elan.py --filters s d
 ```
 ### Parámetros:

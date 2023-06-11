@@ -3,59 +3,59 @@
 ### Video Analysis tool
 
 ## Authors: 
-[Lucas Mesías](https://www.github.com/Skyrdow) | [Joaquín Salidivia](https://www.github.com/Skyrdow) | [Nicolás Aguilera](https://www.github.com/Don-Uldaricio)
+[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
 ## Use instructions
-### Prerrequisitos
+### Prerequisites
 * Python 3.9 or newer
 
 ### Library installation
-* ``torchaudio`` light installation for CPU:
-```python
-pip3 install torch==1.13.1+cpu torchaudio==0.13.1+cpu
-```
 * Install ``whisper-timestamped`` library:
-```python
+```bash
 pip3 install git+https://github.com/linto-ai/whisper-timestamped
 ```
 * Install ``ffmpeg``:
     * On Ubuntu or Debian:
-    ```python
+    ```bash
     sudo apt update && sudo apt install ffmpeg
     ```
     * On Arch Linux:
-    ```python
+    ```bash
     sudo pacman -S ffmpeg
     ```
     * On MacOS using Homebrew (https://brew.sh/):
-    ```python
+    ```bash
     brew install ffmpeg
     ```
     * on Windows using Chocolatey (https://chocolatey.org/):
-    ```python
+    ```bash
     choco install ffmpeg
     ```
     * on Windows using Scoop (https://scoop.sh/):
-    ```
+    ```bash
     scoop install ffmpeg
     ```
 * Install ONNX Runtime:
-```
+```bash
 pip3 install onnxruntime torchaudio
 ```
 * Audio backend torchaudio:
-    * SoundFile for Windows ```pip install soundfile```
-    * Sox for Linux ```pip install sox```
-
-* Json to Elan, with follow command line:
-```python
-pip install json-to-elan
+    * SoundFile for Windows 
+    ```bash
+    pip install soundfile
+    ```
+    * Sox for Linux 
+    ```bash
+    pip install sox
+    ```
+* moviepy 
+```bash
+pip install moviepy
 ```
-* moviepy ```pip install moviepy```
 
 ### Setup files
 Move all files to process to the input folder. 
-The .mp4 files will be automatically transformed into .wav files. To avoid the conversion, use the flag "--use_wav True."
+The .mp4 files will be automatically transformed into .wav files. To avoid the conversion, use the flag ``--use_wav True``
 
 
 ## Run the program from the terminal
