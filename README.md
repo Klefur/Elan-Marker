@@ -44,7 +44,7 @@ pip3 install onnxruntime torchaudio
     ```bash
     pip install soundfile
     ```
-    * Sox for Linux 
+    * Sox for Linux/MacOs
     ```bash
     pip install sox
     ```
