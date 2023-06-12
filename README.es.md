@@ -75,9 +75,10 @@ Los archivos generados se encontrarán en la carpeta output
 
 
 ## Reconocimientos
-* [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped): Multilingual Automatic Speech Recognition with word-level timestamps and confidence (License AGPL-3.0)
+* [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped): Multilingual Automatic Speech Recognition with word-level timestamps and confidence (License AGPL-3.0).
 * [whisper](https://github.com/openai/whisper): Whisper speech recognition (License MIT).
 * [dtw-python](https://pypi.org/project/dtw-python): Dynamic Time Warping (License GPL v3).
+* [json-to-elan](https://github.com/CoEDL/elan-helpers): Tools and scripts for working with ELAN (License Apache-2.0).
 
 ## Citas de artículos
 Si incorporas esto en tu investigación, haz referencia al repositorio como fuente.
