@@ -72,3 +72,61 @@ python ./marcador_elan.py --filters s d
 * ``--language``: Seleccionar el idioma del audio
 
 Los archivos generados se encontrarán en la carpeta output
+
+
+## Reconocimientos
+* [whisper-timestamped](https://github.com/linto-ai/whisper-timestamped): Multilingual Automatic Speech Recognition with word-level timestamps and confidence (License AGPL-3.0)
+* [whisper](https://github.com/openai/whisper): Whisper speech recognition (License MIT).
+* [dtw-python](https://pypi.org/project/dtw-python): Dynamic Time Warping (License GPL v3).
+
+## Citas de artículos
+Si incorporas esto en tu investigación, haz referencia al repositorio como fuente.
+
+```bibtex
+@misc{lintoai2023whispertimestamped,
+  title={Marcador-elan},
+  author={Louradour, J{\'e}r{\^o}me},
+  journal={GitHub repository},
+  year={2023},
+  publisher={GitHub},
+  howpublished = {\url{https://github.com/Klefur/Marcador-Elan}}
+}
+```
+
+Whisper-timestamped:
+
+```bibtex
+@misc{lintoai2023whispertimestamped,
+  title={whisper-timestamped},
+  author={Louradour, J{\'e}r{\^o}me},
+  journal={GitHub repository},
+  year={2023},
+  publisher={GitHub},
+  howpublished = {\url{https://github.com/linto-ai/whisper-timestamped}}
+}
+```
+
+OpenAI Whisper paper:
+
+```bibtex
+@article{radford2022robust,
+  title={Robust speech recognition via large-scale weak supervision},
+  author={Radford, Alec and Kim, Jong Wook and Xu, Tao and Brockman, Greg and McLeavey, Christine and Sutskever, Ilya},
+  journal={arXiv preprint arXiv:2212.04356},
+  year={2022}
+}
+```
+
+Dynamic-Time-Warping:
+
+```bibtex
+@article{JSSv031i07,
+  title={Computing and Visualizing Dynamic Time Warping Alignments in R: The dtw Package},
+  author={Giorgino, Toni},
+  journal={Journal of Statistical Software},
+  year={2009},
+  volume={31},
+  number={7},
+  doi={10.18637/jss.v031.i07}
+}
+```
