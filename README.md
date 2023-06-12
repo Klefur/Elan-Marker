@@ -84,13 +84,12 @@ The generated files will be in output folder
 If you incorporate this in your research, reference the repository as the source.
 
 ```bibtex
-@misc{lintoai2023whispertimestamped,
-  title={Marcador-elan},
-  author={Louradour, J{\'e}r{\^o}me},
-  journal={GitHub repository},
-  year={2023},
-  publisher={GitHub},
-  howpublished = {\url{https://github.com/Klefur/Marcador-Elan}}
+@misc{mesias2023marcadorelan,
+author = {Mesías, Lucas and Saldivia, Joaquín and Aguilera, Nicolás},
+month = {6},
+title = {Marcador-elan},
+url = {https://github.com/Klefur/Marcador-Elan/},
+year = {2023}
 }
 ```
 

@@ -1,0 +1,30 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Marcador-elan
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Lucas
+    family-names: Mesías
+    email: lucas.mesias@usach.cl
+  - given-names: Joaquín
+    family-names: Saldivia
+    email: joaquin.saldivia@usach.cl
+  - given-names: Nicolás
+    family-names: Aguilera
+    email: nicolas.aguilera.g@usach.cl
+repository-code: 'https://github.com/Klefur/Marcador-Elan/'
+abstract: Video and Audio Analysis tool for elan software
+keywords:
+  - python
+  - whisper
+  - openai
+  - elan
+  - speech to text
+  - timestamp marker
+license: AGPL-3.0
+date-released: '2023-06-11'
