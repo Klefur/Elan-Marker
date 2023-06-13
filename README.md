@@ -9,7 +9,11 @@
 ### Prerequisites
 * Python 3.9 or newer
 
-### Library installation
+### Installation
+* Clone this repo (Or download it as a zip):
+```bash
+clone https://github.com/Klefur/Elan-Marker.git
+```
 * Install ``whisper-timestamped`` library:
 ```bash
 pip3 install git+https://github.com/linto-ai/whisper-timestamped
