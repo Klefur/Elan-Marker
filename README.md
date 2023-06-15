@@ -5,6 +5,11 @@
 ## Authors: 
 [Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
+## Introduction
+This program transforms .wav files into a .json files whose contain words with certain character selected (filter) in a specific language.
+This, using the ``whisper-timestamped`` library that processes the files and applies this filter (one or more characters). The program
+detects the words whose contain these characters and creates a .json file with the words detected, including timestamps attributes for each word.
+
 ## Use instructions
 ### Prerequisites
 * Python 3.9 or newer

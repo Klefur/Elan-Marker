@@ -5,6 +5,12 @@
 ## Autores: 
 [Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
+## Introducción
+Este programa transforma archivos de audio .wav en un archivo .json, el que contiene palabras del audio pasadas por un filtro. En este caso,
+el filtro corresponde a una o más letras, que deben estar dentro de la palabra. Esto mediante el uso de la librería ``whisper-timestamped``
+el cual procesa el audio y selecciona las palabras que contengan las letras elegidas (filtro). El archivo .json de salida contiene las
+palabras detectadas junto con atributos como el tiempo en el que se detectó la palabra y cuánto dura esta.
+
 ## Instrucciones de uso
 ### Prerrequisitos
 * Python 3.9 o superior
@@ -89,7 +95,7 @@ Si incorporas esto en tu investigación, haz referencia al repositorio como fuen
 
 ```bibtex
 @misc{mesias2023marcadorelan,
-author = {Mesías, Lucas and Saldivia, Joaquín and Aguilera, Nicolás},
+author = {Mesías, L., Saldivia, J., Aguilera, N.},
 month = {6},
 title = {Marcador-elan},
 url = {https://github.com/Klefur/Marcador-Elan/},
