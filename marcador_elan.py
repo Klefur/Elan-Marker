@@ -59,10 +59,10 @@ def main():
     parser.add_argument('-f', '--filters', nargs='+', help='List of strings to filter (use lowercase)', default=["s", "d"])
     parser.add_argument('-i', '--input_folder', help='Folder with the input files', default='input')
     parser.add_argument('-o', '--output_folder', help='Folder for output files', default='output')
-    parser.add_argument('-t', '--delete_temp', help='Delete temporal files', default=True)
-    parser.add_argument('-w', '--use_wav', help='Skip .wav to .mp4 conversion', default=False)
+    parser.add_argument('-t', '--save_temp', action='store_true', help='Save temporal files', default=False)
+    parser.add_argument('-w', '--use_wav', action='store_true', help='Skip .wav to .mp4 conversion', default=False)
     parser.add_argument('-m', '--name_model', help='Select whisper model', default='small')
-    parser.add_argument('-l', '--language', help='Select language of the audio', default='es')
+    parser.add_argument('-l', '--language', help='Select language of the audio: {af,am,ar,as,az,ba,be,bg,bn,bo,br,bs,ca,cs,cy,da,de,el,en,es,et,eu,fa,fi,fo,fr,gl,gu,ha,haw,he,hi,hr,ht,hu,hy,id,is,it,ja,jw,ka,kk,km,kn,ko,la,lb,ln,lo,lt,lv,mg,mi,mk,ml,mn,mr,ms,mt,my,ne,nl,nn,no,oc,pa,pl,ps,pt,ro,ru,sa,sd,si,sk,sl,sn,so,sq,sr,su,sv,sw,ta,te,tg,th,tk,tl,tr,tt,uk,ur,uz,vi,yi,yo,zh,Afrikaans,Albanian,Amharic,Arabic,Armenian,Assamese,Azerbaijani,Bashkir,Basque,Belarusian,Bengali,Bosnian,Breton,Bulgarian,Burmese,Castilian,Catalan,Chinese,Croatian,Czech,Danish,Dutch,English,Estonian,Faroese,Finnish,Flemish,French,Galician,Georgian,German,Greek,Gujarati,Haitian,Haitian Creole,Hausa,Hawaiian,Hebrew,Hindi,Hungarian,Icelandic,Indonesian,Italian,Japanese,Javanese,Kannada,Kazakh,Khmer,Korean,Lao,Latin,Latvian,Letzeburgesch,Lingala,Lithuanian,Luxembourgish,Macedonian,Malagasy,Malay,Malayalam,Maltese,Maori,Marathi,Moldavian,Moldovan,Mongolian,Myanmar,Nepali,Norwegian,Nynorsk,Occitan,Panjabi,Pashto,Persian,Polish,Portuguese,Punjabi,Pushto,Romanian,Russian,Sanskrit,Serbian,Shona,Sindhi,Sinhala,Sinhalese,Slovak,Slovenian,Somali,Spanish,Sundanese,Swahili,Swedish,Tagalog,Tajik,Tamil,Tatar,Telugu,Thai,Tibetan,Turkish,Turkmen,Ukrainian,Urdu,Uzbek,Valencian,Vietnamese,Welsh,Yiddish,Yoruba}', default='es')
     args = parser.parse_args()
 
     if args.input_folder == args.output_folder:
@@ -90,7 +90,8 @@ def main():
     make_elan(tier_name="Marcador elan", data_dir=args.output_folder)
     link_mp4_to_elan(args.output_folder)
 
-    if args.delete_temp:
+    if not args.save_temp:
+        print("Deleting temp files")
         delete_temp_files(args.input_folder, args.output_folder)
 
     print("Done!")

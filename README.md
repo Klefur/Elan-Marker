@@ -1,9 +1,6 @@
 # Marker-Elan
-### Video Analysis tool
+## Video Analysis tool
 [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.es.md)
-
-## Authors: 
-[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
 ## Introduction
 This program transforms .wav files into a .json files whose contain words with certain character selected (filter) in a specific language.
@@ -61,7 +58,6 @@ pip3 install onnxruntime torchaudio
 ```bash
 pip install moviepy
 ```
-
 * pympi-ling
 ```bash
 pip install pympi-ling
@@ -72,6 +68,11 @@ Move all files to process to the input folder.
 The .mp4 files will be automatically transformed into .wav files. To avoid the conversion, use the flag ``--use_wav True``
 
 ## Run the program from the terminal
+Open the console from the cloned repository. You can use the `cd` command.
+```bash
+cd ./path/Marcador-Elan
+```
+
 Open the repository in the terminal using
 ```
 cd ./{path}/Elan-Marker
@@ -82,12 +83,33 @@ python ./marcador_elan.py --filters s d
 ```
 ### Parameters:
 * ``--filters``: List of strings to filter (use lowercase)
+```bash
+python ./marcador_elan.py --filters s d asa
+```
 * ``--input_folder``: Folder with the input files
+```bash
+python ./marcador_elan.py --input_folder mp4_folder
+```
 * ``--output_folder``: Folder for output files
-* ``--delete_temp``: Delete temporal files
+```bash
+python ./marcador_elan.py --output_folder elan_folder
+```
+* ``--save_temp``: save temporal files
+```bash
+python ./marcador_elan.py --save_temp
+```
 * ``--use_wav``: Skip .wav to .mp4 conversion
+```bash
+python ./marcador_elan.py --use_wav
+```
 * ``--name_model``: Select [whisper model](https://github.com/openai/whisper/tree/main#available-models-and-languages)
-* ``--language``: Select language of the audio
+```bash
+python ./marcador_elan.py --name_model medium
+```
+* ``--language``: Select language of the audio (--help to see list) (default: Spanish)
+```bash
+python ./marcador_elan.py --language en
+```
 
 The generated files will be in output folder
 
@@ -96,6 +118,9 @@ The generated files will be in output folder
 * [whisper](https://github.com/openai/whisper): Whisper speech recognition (License MIT).
 * [dtw-python](https://pypi.org/project/dtw-python): Dynamic Time Warping (License GPL v3).
 * [json-to-elan](https://github.com/CoEDL/elan-helpers): Tools and scripts for working with ELAN (License Apache-2.0).
+
+## Authors
+[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
 
 ## Paper Citations
 If you incorporate this in your research, reference the repository as the source.

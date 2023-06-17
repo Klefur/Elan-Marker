@@ -2,9 +2,6 @@
 ### Herramienta de análisis de video
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Klefur/Marcador-Elan/blob/main/README.md)
 
-## Autores: 
-[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
-
 ## Introducción
 Este programa transforma archivos de audio .wav en un archivo .json, el que contiene palabras del audio pasadas por un filtro. En este caso,
 el filtro corresponde a una o más letras, que deben estar dentro de la palabra. Esto mediante el uso de la librería ``whisper-timestamped``
@@ -62,24 +59,54 @@ pip3 install onnxruntime torchaudio
 ```bash
 pip install moviepy
 ```
+* pympi 
+```bash
+pip install pympi-ling
+```
 
 ### Preparar archivos
 Mover todos los archivos a procesar a la carpeta input
 Los archivos .mp4 serán transformados a .wav automáticamente, para evitar la conversión se usa la flag ``--use_wav True``
 
 ## Ejecutar el programa desde la terminal
+Abre la consola desde el repositorio clonado. Puedes usar el comando `cd`
+```bash
+cd ./path/Marcador-Elan
+```
+
 La siguiente línea de comando ejecutará el programa y marcará en la línea de tiempo las palabras que contengan las letras 's' y 'd'
 ```bash
-python ./marcador_elan.py --filters s d
+python ./marcador_elan.py
 ```
 ### Parámetros:
 * ``--filters``: Lista de strings a filtrar (usar minúsculas)
+```bash
+python ./marcador_elan.py --filters s d asa
+```
 * ``--input_folder``: Carpeta con los archivos de entrada
+```bash
+python ./marcador_elan.py --input_folder mp4_folder
+```
 * ``--output_folder``: Carpeta con los archivos de salida
-* ``--delete_temp``: Borrar archivos temporales
+```bash
+python ./marcador_elan.py --output_folder elan_folder
+```
+* ``--save_temp``: Guardar archivos temporales
+```bash
+python ./marcador_elan.py --save_temp
+```
 * ``--use_wav``: Saltar la conversión de .wav a .mp4
+```bash
+python ./marcador_elan.py --use_wav
+```
 * ``--name_model``: Seleccionar modelo de conversión
-* ``--language``: Seleccionar el idioma del audio
+```bash
+python ./marcador_elan.py --name_model medium
+```
+* ``--language``: Seleccionar el idioma del audio (--help para ver la lista) (default: Spanish)
+```bash
+python ./marcador_elan.py --language en
+```
 
 Los archivos generados se encontrarán en la carpeta output
 
@@ -90,12 +117,15 @@ Los archivos generados se encontrarán en la carpeta output
 * [dtw-python](https://pypi.org/project/dtw-python): Dynamic Time Warping (License GPL v3).
 * [json-to-elan](https://github.com/CoEDL/elan-helpers): Tools and scripts for working with ELAN (License Apache-2.0).
 
+## Autores: 
+[Lucas Mesías](https://github.com/Skyrdow) | [Joaquín Salidivia](https://github.com/Klefur) | [Nicolás Aguilera](https://github.com/Don-Uldaricio)
+
 ## Citas de artículos
 Si incorporas esto en tu investigación, haz referencia al repositorio como fuente.
 
 ```bibtex
 @misc{mesias2023marcadorelan,
-author = {Mesías, L., Saldivia, J., Aguilera, N.},
+author = {Mesías, Lucas and Saldivia, Joaquín and Aguilera, Nicolás},
 month = {6},
 title = {Marcador-elan},
 url = {https://github.com/Klefur/Marcador-Elan/},
