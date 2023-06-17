@@ -62,13 +62,21 @@ pip3 install onnxruntime torchaudio
 pip install moviepy
 ```
 
+* pympi-ling
+```bash
+pip install pympi-ling
+```
+
 ### Setup files
 Move all files to process to the input folder. 
 The .mp4 files will be automatically transformed into .wav files. To avoid the conversion, use the flag ``--use_wav True``
 
-
 ## Run the program from the terminal
-The following command line will execute the program and mark on the timeline the words that contain the letters 's' and 'd'.
+Open the repository in the terminal using
+```
+cd ./{path}/Elan-Marker
+```
+then the following command line will execute the program and mark on the timeline the words that contain the letters 's' and 'd'.
 ```
 python ./marcador_elan.py --filters s d
 ```
